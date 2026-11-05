@@ -276,3 +276,18 @@ section:not(.hero){scroll-margin-top:110px}.section{padding:108px 0}.section-hea
 .profile-links .link-arrow{font-size:12px;white-space:nowrap}
 .profile-links a:hover{background:#f3fbfb;box-shadow:0 2px 8px rgba(19,49,70,.08)}
 @media (max-width:520px){.contact-box .contact-email-row{gap:12px}.contact-box .contact-email-row .email-address{flex-basis:100%}.contact-box .contact-email-row .email-address a{font-size:clamp(18px,5vw,25px)}.profile-links a{white-space:normal}.profile-links .social-icon{width:17px;height:17px}}
+
+/* Mobile layout QA — prevent long publication metadata from widening the page. */
+@media (max-width:710px){
+  .pub-item{grid-template-columns:55px minmax(0,1fr)}
+  .pub-item > *, .research-manifesto > *, .project-followup-card > *,
+  .experience-body, .teaching-card, .project-card {min-width:0}
+  .pub-item h3, .pub-authors, .pub-journal, .pub-description,
+  .project-card h3, .project-followup-card h3 {overflow-wrap:break-word}
+  .research-planetarium svg{max-width:100%}
+}
+@media (max-width:359px){
+  .pub-item{grid-template-columns:45px minmax(0,1fr);gap:9px}
+  .pub-item h3{font-size:19px}
+  .institution-logo img{width:min(110px,100%);height:auto;aspect-ratio:1/1}
+}
