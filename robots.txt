@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://paolomarzi92-prog.github.io/sitemap.xml
+Sitemap: https://paolomarzi.eu/sitemap.xml
