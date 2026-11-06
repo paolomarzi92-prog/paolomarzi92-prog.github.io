@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1517 989" role="img" aria-labelledby="title desc">
+<title id="title">Research interests</title>
+<desc id="desc">Political representation, European politics, political elites, political parties, Euroscepticism, and legislative careers arranged around a circular orbit with globe icons.</desc>
+<defs>
+  <radialGradient id="bg" cx="50%" cy="50%" r="75%"><stop offset="0" stop-color="#203f57"/><stop offset="1" stop-color="#18334a"/></radialGradient>
+  <g id="globe" fill="none" stroke="#9dd5e2" stroke-width="2.9" stroke-linejoin="round">
+    <circle r="27"/>
+    <ellipse rx="12" ry="27"/>
+    <path d="M-26 0H26 M-23 -11C-8 -16 8 -16 23 -11 M-23 11C-8 16 8 16 23 11"/>
+  </g>
+</defs>
+<rect width="1517" height="989" fill="url(#bg)"/>
+<circle cx="758" cy="496" r="346" fill="none" stroke="#62859e" stroke-width="2.6"/>
+<g><use href="#globe" x="586" y="196"/><use href="#globe" x="932" y="196"/><use href="#globe" x="412" y="496"/><use href="#globe" x="1105" y="496"/><use href="#globe" x="586" y="796"/><use href="#globe" x="932" y="796"/></g>
+<g fill="#deebf3" font-family="Arial, Helvetica, sans-serif" font-size="35" font-weight="400">
+  <text x="156" y="208">Political representation</text>
+  <text x="980" y="208">European politics</text>
+  <text x="140" y="507">Political elites</text>
+  <text x="1154" y="507">Political parties</text>
+  <text x="289" y="808">Euroscepticism</text>
+  <text x="980" y="808">Legislative careers</text>
+</g>
+<text x="758" y="515" text-anchor="middle" fill="#f2f5f7" font-family="Georgia, 'Times New Roman', serif" font-size="60" font-weight="400">Research interests</text>
+</svg>
